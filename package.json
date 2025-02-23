@@ -1,0 +1,13 @@
+{
+  "name": "kamatera-proxy",
+  "version": "1.0.0",
+  "description": "Proxy to call Kamatera API from a static IP",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.5.1"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}
